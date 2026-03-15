@@ -1,6 +1,4 @@
-# PRFAQ
-
-## Build AI That Matters
+# PRFAQ // Build AI That Matters
 
 Dependable AI systems for real-world impact
 

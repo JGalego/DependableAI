@@ -1,5 +1,5 @@
 ---
-theme: white
+theme: moon
 transition: slide
 highlightTheme: monokai
 slideNumber: false
@@ -10,12 +10,12 @@ author: João Galego
 ---
 
 <style>
-    .reveal h1, .reveal h2, .reveal h4, .reveal h5 {
+    .reveal h1, .reveal h2, .reveal h3, .reveal h4, .reveal h5 {
                   text-transform: none;
           }
 </style>
 
-## Build <span style='color: red'>AI</span> that matters 🌱
+# Build <span style='color: red'>AI</span> that matters
 
 Dependable AI systems for real-world impact
 
@@ -31,35 +31,35 @@ Invited Professor @ ISEG
 
 ---
 
-### Agenda 📋
+# Agenda 📋
 
 --
 
-#### The Production Gap
+## The Production Gap
 
 great demos, fragile systems
 
 --
 
-#### Why AI Fails
+## Why AI Fails
 
 why the model (usually) isn’t the problem
 
 --
 
-#### Dependable AI
+## Dependable AI
 
 from models to systems
 
 --
 
-#### AI that (actually) matters
+## AI that (actually) matters
 
 building systems people can trust
 
 --
 
-Want to dive deeper?
+## Want to dive deeper?
 
 [awesome.critical-ai.dev](https://awesome.critical-ai.dev)
 
@@ -67,23 +67,23 @@ Want to dive deeper?
 
 ---
 
-### Why AI <span style='color: red'>fails</span>
+# Why AI <span style='color: red'>fails</span>
 
 --
 
-Here's an uncomfortable truth...
+**Here's an uncomfortable truth...**
+
+Most AI talks focus on {.fragment .fade-in}
+
+- better models {.fragment .fade-in}
+- bigger models {.fragment .fade-in}
+- more benchmarks {.fragment .fade-in}
 
 --
 
-Most AI talks focus on
+**BUT**
 
-- better models
-- bigger models
-- more benchmarks
-
---
-
-But real-world impact <br>relies on something else...
+Real-world impact relies on something else...
 
 <span style='color: red'>**RELIABILITY**</span> {.fragment .fade-in}
 
@@ -101,43 +101,43 @@ But real-world impact <br>relies on something else...
 
 --
 
-#### Why is this important?
+## Why is this important?
 
-Because AI is already in **critical** systems... {.fragment .fade-in}
+Because AI is already in <span style='color: red'>**critical**</span> systems... {.fragment .fade-in}
 
 --
 
-##### [AI is helping in the ICU](https://link.springer.com/article/10.1007/s00134-023-07102-y)
+### [AI is helping in the ICU](https://link.springer.com/article/10.1007/s00134-023-07102-y)
 
 <img src="https://media.springernature.com/lw685/springer-static/image/art%3A10.1007%2Fs00134-023-07102-y/MediaObjects/134_2023_7102_Fig1_HTML.png?as=webp" width=50%/>
 
 --
 
-##### [AI is navigating drones](https://www.flyeye.io/how-ai-is-used-in-drones/)
+### [AI is navigating drones](https://www.flyeye.io/how-ai-is-used-in-drones/)
 
 <img src=https://miro.medium.com/1*qTWAJMhSlrDHRBe6fWjKJg.gif width=50%/>
 
 --
 
-##### [AI is managing air traffic](https://interactive.aviationtoday.com/avionicsmagazine/november-december-2022/how-ai-makes-air-traffic-management-more-predictable-and-more-efficient/)
+### [AI is managing air traffic](https://interactive.aviationtoday.com/avionicsmagazine/november-december-2022/how-ai-makes-air-traffic-management-more-predictable-and-more-efficient/)
 
 <img src=https://s3.amazonaws.com/marquee-test-akiaisur2rgicbmpehea/F0wnRGIzRjGQueN4Ovrj_Heathrow0202aa.jpg width=50%/>
 
 --
 
-[AI is in space...](https://science.nasa.gov/science-research/science-enabling-technology/new-ai-algorithms-streamline-data-processing-for-space-based-instruments/)
+### [AI is in space...](https://science.nasa.gov/science-research/science-enabling-technology/new-ai-algorithms-streamline-data-processing-for-space-based-instruments/)
 
 <img src=https://science.nasa.gov/wp-content/uploads/2023/06/ai-algorithm-2.png width=50%/>
 
 --
 
-[... and inside nuclear reactors](https://www.anl.gov/ntns/article/nuclear-energy-becomes-smarter-and-safer-with-ai)
+### [... and inside nuclear reactors](https://www.anl.gov/ntns/article/nuclear-energy-becomes-smarter-and-safer-with-ai)
 
 <img src="https://www.anl.gov/sites/www/files/styles/article_teaser_16x9/public/33926D_454_NTNS_Danny%20Andujar_THETA_METL_PRINT%20%281%29.jpg?h=8abcec71&itok=Tzh-VcMY" width=50%/>
 
 --
 
-**Sidenote:** [Datacenters in space](https://taranis.ie/datacenters-in-space-are-a-terrible-horrible-no-good-idea/) // Taranis
+### **Sidenote:** [Datacenters in space](https://taranis.ie/datacenters-in-space-are-a-terrible-horrible-no-good-idea/) // Taranis
 
 Why it's a terrible, horrible, no good idea
 
@@ -145,7 +145,7 @@ Why it's a terrible, horrible, no good idea
 
 --
 
-**Sidenote:** [Vibe nuclear](https://pivot-to-ai.com/2025/11/18/vibe-nuclear-lets-use-ai-shortcuts-on-reactor-safety/) // Pivot-to-AI
+### **Sidenote:** [Vibe nuclear](https://pivot-to-ai.com/2025/11/18/vibe-nuclear-lets-use-ai-shortcuts-on-reactor-safety/) // Pivot-to-AI
 
 What it is & why it's a bad idea
 
@@ -153,19 +153,19 @@ What it is & why it's a bad idea
 
 --
 
-#### What is a <span style='color: red'>critical</span> system?
+## What is a <span style='color: red'>critical</span> system?
 
 --
 
 A system whose failure may cause
 
-- injury or loss of life
-- infrastructure damage
-- environmental harm
-- mission failure
-- major financial loss
+- injury or loss of life 😵
+- infrastructure damage 💥
+- environmental harm 🚱
+- mission failure 🚀
+- major financial loss 📉
 
---
+<!--
 
 **Examples:**
 
@@ -177,15 +177,17 @@ Power grid control $\rightarrow$ Blackouts
 
 Core banking $\rightarrow$ Financial disruption
 
+-->
+
 --
 
-#### When these systems <span style='color: red'>fail</span>...
+## When these systems <span style='color: red'>fail</span>...
 
 real accidents happen! {.fragment .fade-in}
 
 --
 
-##### [Mars Climate Orbiter](https://science.nasa.gov/mission/mars-climate-orbiter/)
+### [Mars Climate Orbiter](https://science.nasa.gov/mission/mars-climate-orbiter/)
 
 Lost a spacecraft because one team used metric <br>and the other used imperial 🚀📏
 
@@ -193,7 +195,7 @@ Lost a spacecraft because one team used metric <br>and the other used imperial �
 
 --
 
-##### [Patriot Missile Failure](https://cs.nyu.edu/~exact/resource/mirror/patriot.htm)
+### [Patriot Missile Failure](https://cs.nyu.edu/~exact/resource/mirror/patriot.htm)
 
 Missed a missile due to a rounding error 🎯
 
@@ -201,7 +203,7 @@ Missed a missile due to a rounding error 🎯
 
 --
 
-##### [Knight Capital Trading Glitch](https://www.cio.com/article/286790/software-testing-lessons-learned-from-knight-capital-fiasco.html)
+### [Knight Capital Trading Glitch](https://www.cio.com/article/286790/software-testing-lessons-learned-from-knight-capital-fiasco.html)
 
 Lost $440M in 30 minutes <br> after deploying buggy code 💸
 
@@ -209,7 +211,7 @@ Lost $440M in 30 minutes <br> after deploying buggy code 💸
 
 --
 
-##### [Toyota Unintended Acceleration](https://www.transportation.gov/briefing-room/us-department-transportation-releases-results-nhtsa-nasa-study-unintended-acceleration)
+### [Toyota Unintended Acceleration](https://www.transportation.gov/briefing-room/us-department-transportation-releases-results-nhtsa-nasa-study-unintended-acceleration)
 
 Spaghetti code broke the brakes 🚗
 
@@ -217,17 +219,13 @@ Spaghetti code broke the brakes 🚗
 
 --
 
-**Key Point:**
+## Why AI systems are <span style='color: red'>hard</span>
 
 Complex systems fail in surprising ways.
 
 --
 
-### Why AI systems are <span style='color: red'>hard</span>
-
---
-
-#### Traditional software
+### Traditional software
 
 ```mermaid
 flowchart LR
@@ -242,7 +240,7 @@ end
 
 --
 
-Key properties:
+**Key properties:**
 
 - deterministic
 - explicit rules
@@ -251,7 +249,7 @@ Key properties:
 
 --
 
-#### ML Systems
+## ML Systems
 
 ```mermaid
 flowchart LR
@@ -267,7 +265,7 @@ E --feedback--> A
 
 --
 
-Key properties:
+**Key properties:**
 
 - probabilistic
 - behavior learned from data
@@ -275,19 +273,17 @@ Key properties:
 
 --
 
-More uncertainty
-
-Hidden failure modes
+This leads to more uncertainty and <br>hidden failure modes
 
 --
 
-### S*** happens!
+## S*** happens!
 
 Models *will* make <span style='color: red'>mistakes</span>
 
 --
 
-##### [Just stick something to it...](https://spectrum.ieee.org/slight-street-sign-modifications-can-fool-machine-learning-algorithms)
+### [Just stick something to it...](https://spectrum.ieee.org/slight-street-sign-modifications-can-fool-machine-learning-algorithms)
 
 or when is a stop sign not like a stop sign?
 
@@ -295,7 +291,7 @@ or when is a stop sign not like a stop sign?
 
 --
 
-##### [Nissan's Emergency Braking](https://incidentdatabase.ai/cite/341/)
+### [Nissan's Emergency Braking](https://incidentdatabase.ai/cite/341/)
 
 False positives posed traffic risks to drivers
 
@@ -303,7 +299,7 @@ False positives posed traffic risks to drivers
 
 --
 
-##### [Waymo School Bus Problem](https://philkoopman.substack.com/p/the-waymo-school-bus-problem)
+### [Waymo School Bus Problem](https://philkoopman.substack.com/p/the-waymo-school-bus-problem)
 
 Polite software that 'moved out of the way' <br> by illegal passing. 🚌
 
@@ -311,25 +307,65 @@ Polite software that 'moved out of the way' <br> by illegal passing. 🚌
 
 --
 
-Even great models *eventually* fail...
+### Even great models *eventually* fail...
 
 often in **strange** and **unpredictable** ways {.fragment .fade-in}
 
 --
 
-#### How can we fight this?
+## How can we fight this?
 
 --
 
-##### Sofware Testing
+### Sofware Testing
 
 Test the system like any other critical software.
 
 --
 
-##### Formal Verification
+The [ECSS ML handbook](https://ecss.nl/home/ecss-e-hb-40-02a-15-november-2024/) suggests:
+
+- specific examples testing
+
+- neural network coverage testing
+
+- out of distribution testing
+
+- adversarial testing
+
+- statistical testing
+
+--
+
+**Golden Rule #1**
+
+> Don't build AI <br>just because you have data.
+
+--
+
+**Golden Rule #2**
+
+> Don't use AI just because you can.
+
+--
+
+### Formal Verification
 
 *Mathematically* prove certain behaviors <br>cannot happen.
+
+--
+
+[Natural Language $\rightarrow$ Temporal Logic Formulas](https://conformalnl2ltl.github.io/)
+
+<video controls width=50%>
+    <source src="https://conformalnl2ltl.github.io/video/robot_dog_1.mp4">
+</video>
+
+--
+
+[Minimize Hallucinations with Automated Reasoning](https://aws.amazon.com/blogs/aws/minimize-ai-hallucinations-and-deliver-up-to-99-verification-accuracy-with-automated-reasoning-checks-now-available/)
+
+<img src=https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2025/07/16/ar-checks-generate.png width=70%>
 
 --
 
@@ -379,11 +415,15 @@ Operating systems
 
 --
 
-These systems are defined not <br>
-
-just by **what** they do<br>
+### These systems are not defined by **what** they do
 
 but <span style='color: red'>**when**</span> they do it. {.fragment .fade-in}
+
+--
+
+### Intelligent or not...
+
+Building reactive systems is hard!
 
 --
 
@@ -413,11 +453,11 @@ i.e. $\texttt{SWE} = \texttt{E}[\texttt{SW}]$
 
 ---
 
-### <span style='color: red'>Dependable</span> AI
+# <span style='color: red'>Dependable</span> AI
 
 --
 
-#### The <span style='color: red'>Real</span> Problem
+## The <span style='color: red'>Real</span> Problem
 
 The challenge isn't model accuracy.
 
@@ -425,7 +465,7 @@ It's system reliability under **uncertainty**.
 
 --
 
-#### From Models to Systems
+## From Models to Systems
 
 Typical ML focuses on
 
@@ -449,7 +489,7 @@ Real systems require
 
 --
 
-#### Dependable AI Stack
+## Dependable AI Stack
 
 Data Quality
 
@@ -463,7 +503,7 @@ Governance
 
 --
 
-#### Dependable AI Mindset
+## Dependable AI Mindset
 
 1. Expect failure
 
@@ -475,13 +515,13 @@ Governance
 
 --
 
-#### Engineering Best Practices
+## Engineering Best Practices
 
 What to do, how to do it and why
 
 --
 
-##### Data
+### Data
 
 > Garbage in, garbage out
 
@@ -509,7 +549,7 @@ You don’t control your model,
 
 --
 
-#### Model
+## Model
 
 > Accuracy isn't reliability
 
@@ -533,7 +573,7 @@ Test the failure modes,
 
 --
 
-#### Observability
+## Observability
 
 > If you can’t see it, you can’t trust it.
 
@@ -551,7 +591,7 @@ Silent failures are the most dangerous failures.
 
 --
 
-#### Guardrails
+## Guardrails
 
 > Expect failure. Design for safety.
 
@@ -576,7 +616,7 @@ Reliable systems fail *gracefully*.
 
 --
 
-#### Humans
+## Humans
 
 > AI works best when we are around
 
@@ -632,11 +672,11 @@ Dependability is <span style='color: red'>not</span> a feature.
 
 ---
 
-### AI that (actually) matters
+# AI that (actually) matters
 
 --
 
-#### AI <span style='color: red'>where</span> it matters most
+## AI <span style='color: red'>where</span> it matters most
 
 --
 
@@ -662,7 +702,7 @@ that safely amplify our capabilities. {.fragment .fade-in}
 
 --
 
-### We need to <span style='color: red'>pivot</span>
+# We need to <span style='color: red'>pivot</span>
 
 --
 
@@ -674,6 +714,6 @@ research $\rightarrow$ engineering {.fragment .fade-in}
 
 --
 
-### Build AI that <span style='color: green'>matters</span>
+# Build AI that <span style='color: green'>matters</span>
 
 AI first, human always!
