@@ -1,5 +1,5 @@
 ---
-theme: moon
+theme: white
 transition: slide
 highlightTheme: monokai
 slideNumber: false
@@ -35,21 +35,23 @@ Invited Professor @ ISEG
 
 --
 
-## The Production Gap
+## The production gap
 
-great demos, fragile systems
+great demos, fragile products
 
 --
 
-## Why AI Fails
+## Why AI fails
 
-why the model (usually) isn’t the problem
+why models aren't (usually) the problem
 
 --
 
 ## Dependable AI
 
 from models to systems
+
+from systems to society {.fragment .fade-in}
 
 --
 
@@ -71,55 +73,56 @@ building systems people can trust
 
 --
 
-**Here's an uncomfortable truth...**
+### Here's an uncomfortable truth...
 
-Most AI talks focus on {.fragment .fade-in}
+Most AI talks tend to focus on: {.fragment .fade-in}
 
 - better models {.fragment .fade-in}
 - bigger models {.fragment .fade-in}
-- more benchmarks {.fragment .fade-in}
+- more data {.fragment .fade-in}
+- higher scores {.fragment .fade-in}
 
 --
 
-**BUT**
+## The Problem
 
-Real-world impact relies on something else...
+Real-world impact isn't about intelligence.
 
-<span style='color: red'>**RELIABILITY**</span> {.fragment .fade-in}
+It's about <span style='color: red'>**RELIABILITY**</span>. {.fragment .fade-in}
 
 --
 
-**NOT**
+## NOT
 
 > Can we build AI?
 
 --
 
-**BUT**
+## BUT
 
 > Can we **trust** it when it matters?
 
 --
 
-## Why is this important?
+## Why should we care?
 
-Because AI is already in <span style='color: red'>**critical**</span> systems... {.fragment .fade-in}
+Because AI is already <span style='color: red'>everywhere</span><br> that matters most {.fragment .fade-in}
 
 --
 
-### [AI is helping in the ICU](https://link.springer.com/article/10.1007/s00134-023-07102-y)
+### [AI is saving lives in the ICU...](https://link.springer.com/article/10.1007/s00134-023-07102-y)
 
 <img src="https://media.springernature.com/lw685/springer-static/image/art%3A10.1007%2Fs00134-023-07102-y/MediaObjects/134_2023_7102_Fig1_HTML.png?as=webp" width=50%/>
 
 --
 
-### [AI is navigating drones](https://www.flyeye.io/how-ai-is-used-in-drones/)
+### [Flying drones](https://www.flyeye.io/how-ai-is-used-in-drones/)
 
 <img src=https://miro.medium.com/1*qTWAJMhSlrDHRBe6fWjKJg.gif width=50%/>
 
 --
 
-### [AI is managing air traffic](https://interactive.aviationtoday.com/avionicsmagazine/november-december-2022/how-ai-makes-air-traffic-management-more-predictable-and-more-efficient/)
+### [Directing air traffic](https://interactive.aviationtoday.com/avionicsmagazine/november-december-2022/how-ai-makes-air-traffic-management-more-predictable-and-more-efficient/)
 
 <img src=https://s3.amazonaws.com/marquee-test-akiaisur2rgicbmpehea/F0wnRGIzRjGQueN4Ovrj_Heathrow0202aa.jpg width=50%/>
 
@@ -150,6 +153,14 @@ Why it's a terrible, horrible, no good idea
 What it is & why it's a bad idea
 
 <img src=https://pivot-to-ai.com/wp-content/uploads/2025/11/nuclear-stopwatch.webp width=50%/>
+
+--
+
+## AI is in our <span style='color: red'>critical</span> services
+
+We barely even notice it anymore
+
+**unless something goes wrong** {.fragment .fade-in}
 
 --
 
@@ -189,7 +200,7 @@ real accidents happen! {.fragment .fade-in}
 
 ### [Mars Climate Orbiter](https://science.nasa.gov/mission/mars-climate-orbiter/)
 
-Lost a spacecraft because one team used metric <br>and the other used imperial 🚀📏
+Lost a spacecraft because one team <br>used metric and the other used imperial 📏
 
 <img src=https://mars.nasa.gov/system/content_pages/main_images/375_mco_mapping.jpg width=50%/>
 
@@ -197,7 +208,7 @@ Lost a spacecraft because one team used metric <br>and the other used imperial �
 
 ### [Patriot Missile Failure](https://cs.nyu.edu/~exact/resource/mirror/patriot.htm)
 
-Missed a missile due to a rounding error 🎯
+Killed 28 soldiers due to a cumulative <br>rounding error in the system’s software 🎯
 
 <img src=https://i.makeagif.com/media/12-04-2015/tnfVp2.gif width=50%/>
 
@@ -219,9 +230,27 @@ Spaghetti code broke the brakes 🚗
 
 --
 
-## Why AI systems are <span style='color: red'>hard</span>
+### Good enough is <span style='color: red'>not</span> good enough
 
-Complex systems fail in surprising ways.
+(not in critical systems)
+
+--
+
+> “Do you code with your <br>loved ones in mind?”
+
+<small>
+
+― Emily Durie-Johnson, [Strategies for Developing Safety-Critical Software in C++](https://www.youtube.com/watch?v=VJ6HrRtrbr8)
+
+</small>
+
+--
+
+## Where does that leave <br>AI in <span style='color: red'>critical</span> systems?
+
+When the stakes are this high...
+
+is it really a good idea? {.fragment .fade-in}
 
 --
 
@@ -249,6 +278,30 @@ end
 
 --
 
+#### What is <span style='color: red'>determinism</span>?
+
+<img src=assets/images/determinism.png width=70%/><br>
+
+<small>
+
+**Source:** [Andersson *et al.* (2024)](https://ieeexplore.ieee.org/document/10748739)
+
+</small>
+
+--
+
+#### [Defeating Nondeterminism in LLM Inference](https://thinkingmachines.ai/blog/defeating-nondeterminism-in-llm-inference/)
+
+<img src=https://thinkingmachines.ai/blog/defeating-nondeterminism-in-llm-inference/svgs/nondeterministic.svg width=70%><br>
+
+<small>
+
+**Source:** He *et al.* (2025)
+
+</small>
+
+--
+
 ## ML Systems
 
 ```mermaid
@@ -260,7 +313,7 @@ B --> C[Model]
 D[Input] --> C
 C --> E[Output]
 
-E --feedback--> A
+E --> A
 ```
 
 --
@@ -273,7 +326,23 @@ E --feedback--> A
 
 --
 
-This leads to more uncertainty and <br>hidden failure modes
+### Hidden technical debt in ML systems
+
+<img src="assets/images/hidden_technical_debt.png"/><br>
+
+<small>
+
+**Source:** Sculley *et al.* (2015)
+
+</small>
+
+--
+
+## Key Point
+
+Complex systems fail in ways we can't predict.
+
+AI makes the explosion inevitable.
 
 --
 
@@ -315,37 +384,129 @@ often in **strange** and **unpredictable** ways {.fragment .fade-in}
 
 ## How can we fight this?
 
---
-
-### Sofware Testing
-
-Test the system like any other critical software.
+Let's turn to the [ECSS ML handbook](https://ecss.nl/home/ecss-e-hb-40-02a-15-november-2024/)... {.fragment .fade-in}
 
 --
 
-The [ECSS ML handbook](https://ecss.nl/home/ecss-e-hb-40-02a-15-november-2024/) suggests:
-
-- specific examples testing
-
-- neural network coverage testing
-
-- out of distribution testing
-
-- adversarial testing
-
-- statistical testing
+<img src="assets/images/ecss_ml_handbook.png"/>
 
 --
 
 **Golden Rule #1**
 
-> Don't build AI <br>just because you have data.
+> Do <span style='color: red'>**NOT**</span> build AI <br>just because you have data.
 
 --
 
 **Golden Rule #2**
 
-> Don't use AI just because you can.
+> Do <span style='color: red'>**NOT**</span> use AI <br>just because you can.
+
+--
+
+### Safety Cage Architecture
+
+<img src="assets/images/safety_cage.png" width=80%/>
+
+<!--TODO: add example from autonomous driving e.g. Koopman-->
+
+--
+
+### Neural Simplex Architecture
+
+<img src="assets/images/neural_simplex_architecture.png"><br>
+
+<small>
+
+**Source:** [Phan *et al.* (2019)](https://arxiv.org/abs/1908.00528)
+
+</small>
+
+--
+
+#### Saab / Helsing Collaboration
+
+<img src="https://helsing.ai/assets/image/3cc382ccf7d98fcfe5f98fb823ad8d49a8109d9b-3000x1655.png%3Frect%3D21%2C0%2C2959%2C1655%26w%3D1652%26h%3D924%26fit%3Dmax%26auto%3Dformat?w=1536&q=95" width=50%>
+
+<small>
+
+> "While all of Helsing’s work primarily focused on software model training, integration with Gripen E APIs and testing, Saab actually set the groundwork for operating a software-defined aircraft several years ago with an overhaul to the Gripen’s avionics."
+
+</small>
+
+--
+
+### Saab's [Split Avionics](https://www.mobilityengineeringtech.com/component/content/article/53597-are-military-avionics-systems-ready-for-artificial-intelligence)
+
+<img src="https://i.makeagif.com/media/6-19-2015/ie67l8.gif" width=50%/>
+
+--
+
+#### Tactical vs Flight Critical
+
+<img src="https://3dmilprint.com/cdn/shop/articles/Gripen-20Ejpg_9d8c9db8-2c36-42d6-b9c8-5df36af9385f.jpg?v=1747336842&width=1100" width=30%> <img src="https://crdms.images.consumerreports.org/prod/products/cr/models/399694-smartphones-apple-iphone-11-10008711.png" width=28%>
+
+<small>
+
+> "Gripen’s avionics system separates 10% of the aircraft's flight critical management codebase from 90% of its tactical management code, resulting in avionics that are 'hardware agnostic'."
+
+</small>
+
+--
+
+#### [Software-Defined Assurance](https://helsing.ai/newsroom/helsing-white-paper-software-defined-assurance) / Helsing
+
+<small>
+
+> **Many of the well-known approaches used to ensure the reliability of software are difficult or impossible to apply to AI-based software**, where models are created
+from data rather than hand-coded by software developers. This creates
+friction in the commissioning and development of AI-based software,
+because it is unclear what criteria will be used to assure it.
+The potential worst case is that assurance of systems involving AI are
+subject to a matrix of both poorly-fitting existing requirements and new
+but underspecified AI-related requirements.
+
+</small>
+
+--
+
+### Airborne AI/ML Assurance Lifecycle 
+
+<img src="assets/images/ai_ml_lifecycle.png" width=80%/>
+
+--
+
+### Testing
+
+Test the system like any other critical software.
+
+--
+
+<img src="assets/images/ecss_ml_handbook.png"/>
+
+--
+
+The [ECSS ML handbook](https://ecss.nl/home/ecss-e-hb-40-02a-15-november-2024/) suggests checking:
+
+- specific examples
+
+- neural network coverage
+
+- out of distribution examples
+
+- adversarial examples
+
+--
+
+### V-Cycle $\rightarrow$ W-Cycle
+
+<img src="assets/images/w_cycle.png" width=80%/><br>
+
+<small>
+
+**Source:** [EASA / Daedalean (2024)](https://www.easa.europa.eu/en/document-library/general-publications/concepts-design-assurance-neural-networks-codann)
+
+</small>
 
 --
 
@@ -369,7 +530,7 @@ The [ECSS ML handbook](https://ecss.nl/home/ecss-e-hb-40-02a-15-november-2024/) 
 
 --
 
-def. **Safety property**
+#### <span style='color: red'>Safety property</span>
 
 > "bad thing never happens"
 
@@ -377,7 +538,7 @@ $$\square ~\neg \texttt{bad}$$
 
 --
 
-def. **Liveness property**
+#### <span style='color: green'>Liveness property</span>
 
 > "good thing eventually happens"
 
@@ -385,31 +546,31 @@ $$\diamond ~\texttt{good}$$
 
 --
 
-def. **Reactive System**
+#### Reactive System
 
-A system that maintains an ongoing interaction <br>with its environment, as opposed to computing <br>some final value on termination.
+Systems that maintain an ongoing interaction <br>with the environment, as opposed to computing <br>some final value on termination.
 
 --
 
-Concurrent programs
+##### Concurrent programs
 
 <img src="https://media.licdn.com/dms/image/v2/C4E12AQGJi7qy3aFKvA/article-inline_image-shrink_1000_1488/article-inline_image-shrink_1000_1488/0/1592126487879?e=1774483200&v=beta&t=OutwGvHSfMoLUR9b7aYYKIbzOmqSDIp7eKLAUGOdDyQ" width=50%>
 
 --
 
-Embedded and process control programs
+##### Embedded and process control programs
 
 <img src=https://ebrary.net/htm/img/15/2069/33.png width=50%/>
 
 --
 
-Perpetually ongoing processes
+##### Perpetually ongoing processes
 
 <img src=https://www.frontiersin.org/files/Articles/1075224/xml-images/fenrg-10-1075224-g001.webp width=50%>
 
 --
 
-Operating systems
+##### Operating systems
 
 <img src=https://media3.giphy.com/media/v1.Y2lkPTZjMDliOTUydWhhcWFkcW1md3k4aWpycWRvN2FhcHI3cXR0YTMweXF0OTFhejRoMiZlcD12MV9naWZzX3NlYXJjaCZjdD1n/AqV8uSb8ptxyo7Wyog/giphy-downsized.gif width=50%/>
 
