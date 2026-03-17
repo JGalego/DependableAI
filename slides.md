@@ -576,6 +576,18 @@ Development Assurance Levels (DAL)
 
 --
 
+##### [Runway Sign Classifier](https://www.mathworks.com/help/deeplearning/ug/verify-an-airborne-deep-learning-system.html)
+
+<img src="assets/images/runway_sign_classifier.png" width=80%/><br>
+
+<small>
+
+**Source:** Adapted from [Dimitriev *et al.* (2023)](https://arxiv.org/abs/2310.06506)
+
+</small>
+
+--
+
 ##### Sidenote: [NASA on LLMs for Assurance](https://ntrs.nasa.gov/citations/20250001849)
 
 <img src="assets/images/nasa_llm_assurance.png" width=80%/>
@@ -760,7 +772,7 @@ Systems that maintain an ongoing interaction <br>with the environment, as oppose
 
 --
 
-### These systems are not defined by **what** they do
+### These systems are not defined <br>by **what** they do
 
 but <span style='color: red'>**when**</span> they do it. {.fragment .fade-in}
 
