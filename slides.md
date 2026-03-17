@@ -258,8 +258,6 @@ Because AI is already <span style='color: red'>everywhere</span><br> that matter
 
 --
 
---
-
 ### [... and inside nuclear reactors](https://www.anl.gov/ntns/article/nuclear-energy-becomes-smarter-and-safer-with-ai)
 
 <img src="https://media2.giphy.com/media/v1.Y2lkPTZjMDliOTUyeTh2M2U0ZDBham42emYwZGt4MnQwZXZpZHd5bTk3bzZyZzdobWM2bCZlcD12MV9naWZzX3NlYXJjaCZjdD1n/RnmoEV9ylBoZO/source.gif"/>
@@ -462,7 +460,7 @@ E --> A
 
 Complex systems fail in ways we can't predict.
 
-AI makes the explosion inevitable.
+AI amplifies complexity - and complexity breaks things. {.fragment .fade-in}
 
 --
 
@@ -1009,11 +1007,21 @@ log_decision(input_data, result)
 
 --
 
-Human **in** the loop
+### Human <span style='color: red'>in</span> the loop
 
-Human **on** the loop {.fragment .fade-in}
+AI acts only when a <br>human approves each decision.
 
-Human **over** the loop {.fragment .fade-in}
+--
+
+### Human <span style='color: red'>on</span> the loop
+
+AI acts autonomously, but humans <br>monitor and can intervene.
+
+--
+
+### Human <span style='color: red'>over</span> the loop
+
+AI operates independently, while humans <br>set goals and review outcomes.
 
 --
 
@@ -1059,7 +1067,7 @@ that safely amplify our capabilities. {.fragment .fade-in}
 
 --
 
-# We need to <span style='color: red'>pivot</span>
+## We need to <span style='color: red'>pivot</span>
 
 --
 
@@ -1071,6 +1079,12 @@ research $\rightarrow$ engineering {.fragment .fade-in}
 
 --
 
-# Build AI that <span style='color: green'>matters</span>
+Real engineering does stop at *it works*.
+
+It begins at <span style='color: red'><u>**it lasts**</u></span></u>. {.fragment .fade-in}
+
+--
+
+## Build AI that <span style='color: green'>matters</span>
 
 AI first, human always!
