@@ -35,7 +35,7 @@ Invited Professor @ ISEG
 
 --
 
-## The production gap
+## Mind the gap
 
 great demos, fragile products
 
@@ -69,6 +69,114 @@ building systems people can trust
 
 ---
 
+# Mind the gap
+
+--
+
+## The AI revolution is <span style='color: red'>accelerating</span>...
+
+--
+
+### [Increased Spending](https://www.idc.com/getdoc.jsp?containerId=prUS49670322)
+
+<img src="assets/icons/increased_spending.png"/>
+
+This year, global spending on AI <br>will reach $300B growing 4.2x faster<br> than average IT spend.
+
+--
+
+### [Widespread Adoption](https://www.gartner.com/document/4839631)
+
+<img src="assets/icons/widespread_adoption.png"/>
+
+34% of enterprises have deployed <br>AI in production and 22% will <br>deploy in the next 12 months.
+
+--
+
+### [Generative AI Impact](https://www.mckinsey.com/capabilities/mckinsey-digital/our-insights/the-economic-potential-of-generative-ai-the-next-productivity-frontier#introduction)
+
+<img src="assets/icons/generative_ai_impact.png"/>
+
+Generative AI will increase the impact of all AI <br>by 15 to 40% across all industries.
+
+--
+
+## ... but <span style='color: red'>reality</span> tells <br>a different story
+
+--
+
+### [No Roadmap, No Results](https://finance.yahoo.com/news/organizations-accelerating-ai-investments-early-110000212.html)
+
+<img src="assets/icons/no_roadmap_no_results.png"/>
+
+When it comes to AI adoption,<br> 64% of companies lack a clear roadmap <br>with measurable goals.
+
+--
+
+### [Spending Big, Delivering Small](https://finance.yahoo.com/news/organizations-accelerating-ai-investments-early-110000212.html)
+
+<img src="assets/icons/spending_big_delivering_small.png"/>
+
+67% of organizations expect <br>to maintain or increase AI spending, <br>yet only 21% report any proven outcomes.
+
+--
+
+### [From Prototype To Nowhere](https://www.infoworld.com/article/2270692/why-ai-investments-fail-to-deliver.html)
+
+<img src="assets/icons/from_prototype_to_nowhere.png"/>
+
+86% of all AI projects <span style='color: red'>fail</span> to deliver, <br> while 50% never make it to production.
+
+--
+
+## The AI <span style='color: red'>production gap</span> <br>is real and growing...
+
+--
+
+<img src="assets/images/ai_production_gap.png" width=80%/>
+
+--
+
+## Why is it so <span style='color: red'>hard</span> <br>to *productionize* ML?
+
+--
+
+### The State of Production ML in 2025
+
+<img src="assets/images/state_of_ml_2025.png" width=80%/><br>
+
+<small>
+
+**Source:** [The Institute for Ethical AI & Machine Learning](https://ethical.institute/state-of-ml-2025)
+
+</small>
+
+--
+
+### <span style='color: red'>Not-So-Hidden</span> technical debt in ML systems
+
+<img src="assets/images/hidden_technical_debt.png" width=90%/><br>
+
+<small>
+
+**Source:** Adapted from Sculley *et al.* (2015)
+
+</small>
+
+--
+
+## In software applications, <br>ML is just <span style='color: red'>one among many</span> <br>components...
+
+--
+
+<img src="assets/images/real_world_software.png" width=80%/><br>
+
+--
+
+<img src="assets/images/uml_for_ai.jpg" width=50%/>
+
+---
+
 # Why AI <span style='color: red'>fails</span>
 
 --
@@ -82,11 +190,13 @@ Most AI talks tend to focus on: {.fragment .fade-in}
 - more data {.fragment .fade-in}
 - higher scores {.fragment .fade-in}
 
+<!-- TODO: (optional) add images to illustrate each point -->
+
 --
 
-## The Problem
+## The Main Problem
 
-Real-world impact isn't about intelligence.
+Real-world impact isn't about **intelligence**.
 
 It's about <span style='color: red'>**RELIABILITY**</span>. {.fragment .fade-in}
 
@@ -112,25 +222,47 @@ Because AI is already <span style='color: red'>everywhere</span><br> that matter
 
 ### [AI is saving lives in the ICU...](https://link.springer.com/article/10.1007/s00134-023-07102-y)
 
+<img src="https://media3.giphy.com/media/v1.Y2lkPTZjMDliOTUybXAzdDgxeWFkbnp6OHl2M3NrZDE1cDM3OTQ0eGtrOHE2MjdkdTRqOSZlcD12MV9naWZzX3NlYXJjaCZjdD1n/UrK4buqejkhK2NTFw9/giphy.gif"/>
+
+--
+
+### [... making life-or-death decisions](https://link.springer.com/article/10.1007/s00134-023-07102-y)
+
 <img src="https://media.springernature.com/lw685/springer-static/image/art%3A10.1007%2Fs00134-023-07102-y/MediaObjects/134_2023_7102_Fig1_HTML.png?as=webp" width=50%/>
 
 --
 
-### [Flying drones](https://www.flyeye.io/how-ai-is-used-in-drones/)
+### [AI is flying drones...](https://www.flyeye.io/how-ai-is-used-in-drones/)
 
 <img src=https://miro.medium.com/1*qTWAJMhSlrDHRBe6fWjKJg.gif width=50%/>
 
 --
 
-### [Directing air traffic](https://interactive.aviationtoday.com/avionicsmagazine/november-december-2022/how-ai-makes-air-traffic-management-more-predictable-and-more-efficient/)
+### [... and directing air traffic](https://interactive.aviationtoday.com/avionicsmagazine/november-december-2022/how-ai-makes-air-traffic-management-more-predictable-and-more-efficient/)
 
-<img src=https://s3.amazonaws.com/marquee-test-akiaisur2rgicbmpehea/F0wnRGIzRjGQueN4Ovrj_Heathrow0202aa.jpg width=50%/>
+<img src="https://img.itch.zone/aW1hZ2UvNDYyNzYvMjAyMDk3LmdpZg==/original/IHHUb7.gif"/>
+
+<!--img src=https://s3.amazonaws.com/marquee-test-akiaisur2rgicbmpehea/F0wnRGIzRjGQueN4Ovrj_Heathrow0202aa.jpg width=50%/-->
+
+--
+
+### [AI is in space...](https://parolaanalytics.com/parolanews/ai-nasa-autonomous-in-space-assembly-tech/)
+
+<img src="https://parolaanalytics.com/wp-content/uploads/2024/06/hexapod.gif" width=70%/>
 
 --
 
 ### [AI is in space...](https://science.nasa.gov/science-research/science-enabling-technology/new-ai-algorithms-streamline-data-processing-for-space-based-instruments/)
 
 <img src=https://science.nasa.gov/wp-content/uploads/2023/06/ai-algorithm-2.png width=50%/>
+
+--
+
+--
+
+### [... and inside nuclear reactors](https://www.anl.gov/ntns/article/nuclear-energy-becomes-smarter-and-safer-with-ai)
+
+<img src="https://media2.giphy.com/media/v1.Y2lkPTZjMDliOTUyeTh2M2U0ZDBham42emYwZGt4MnQwZXZpZHd5bTk3bzZyZzdobWM2bCZlcD12MV9naWZzX3NlYXJjaCZjdD1n/RnmoEV9ylBoZO/source.gif"/>
 
 --
 
@@ -326,18 +458,6 @@ E --> A
 
 --
 
-### Hidden technical debt in ML systems
-
-<img src="assets/images/hidden_technical_debt.png"/><br>
-
-<small>
-
-**Source:** Sculley *et al.* (2015)
-
-</small>
-
---
-
 ## Key Point
 
 Complex systems fail in ways we can't predict.
@@ -408,7 +528,57 @@ Let's turn to the [ECSS ML handbook](https://ecss.nl/home/ecss-e-hb-40-02a-15-no
 
 <img src="assets/images/safety_cage.png" width=80%/>
 
-<!--TODO: add example from autonomous driving e.g. Koopman-->
+--
+
+#### Key Idea
+
+Don't try to prove that the ML system is safe.
+
+Instead, **constrain** it so it can't be unsafe. {.fragment .fade-in}
+
+--
+
+### Safety Envelope > Doer/Checker
+
+<img src="assets/images/doer_checker_pair.png" width=80%/><br>
+
+--
+
+### Safety Envelope > Doer/Checker
+
+The doer optimizes for performance.
+
+The checker handles <span style='color: red'>**safety**</span>. {.fragment .fade-in}
+
+--
+
+### Doer/Checker > Automotive
+
+The doer can be low SIL.
+
+The checker <u>*must*</u> be **high** SIL. {.fragment .fade-in}
+
+--
+
+#### Automotive > ISO26262
+
+Safety Integrity Levels (SIL)
+
+<img src=https://instrumentationtools.com/wp-content/uploads/2015/12/instrumentationtools.com_sil-levels.png width=80%/>
+
+--
+
+#### Aerospace > DO-178C
+
+Development Assurance Levels (DAL)
+
+<img src=https://mistralsolutions.com/wp-content/uploads/2025/12/DO-254-DAL-Levels-e1628830540209.png width=80%/>
+
+--
+
+##### Sidenote: [NASA on LLMs for Assurance](https://ntrs.nasa.gov/citations/20250001849)
+
+<img src="assets/images/nasa_llm_assurance.png" width=80%/>
 
 --
 
@@ -421,6 +591,20 @@ Let's turn to the [ECSS ML handbook](https://ecss.nl/home/ecss-e-hb-40-02a-15-no
 **Source:** [Phan *et al.* (2019)](https://arxiv.org/abs/1908.00528)
 
 </small>
+
+--
+
+### Simplex Architecture > Automotive
+
+<img src="assets/images/us10962972_simplex.png" width=80%/><br>
+
+--
+
+### Patent: [US10962972B2](https://patents.google.com/patent/US10962972B2/en)
+
+Safety Architecture for Autonomous Vehicles
+
+<img src="assets/images/safety_architecture_av.png" width=70%/><br>
 
 --
 
