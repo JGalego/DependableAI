@@ -274,6 +274,28 @@ It's about <span style='color: red'>**RELIABILITY**</span>. {.fragment .fade-in}
 
 --
 
+### Meet [US6883201B2](https://patents.google.com/patent/US6883201B2/en) AKA Roomba
+
+<img src="assets/images/roomba_patent_design.png" width=80%/>
+
+--
+
+### Vacuum cleaning is *simple*... right?
+
+<img src="assets/images/vacuum_cleaner_world1.png" width=60%/>
+
+--
+
+### Vacuum cleaning is *simple*... right?
+
+<img src="assets/images/vacuum_cleaner_world2.jpg" width=80%/>
+
+--
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/fjRWHmvYTbM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+--
+
 ### Let's play a game...
 
 <img src="https://images.steamusercontent.com/ugc/859477345544979042/0A998221D53DC9EA07FB68FA278023D49DCEF44F/?imw=5000&imh=5000&ima=fit&impolicy=Letterbox&imcolor=%23000000&letterbox=false"/>
@@ -282,7 +304,7 @@ It's about <span style='color: red'>**RELIABILITY**</span>. {.fragment .fade-in}
 
 ### There are 3 main reasons <br> why ML systems are removed <br>from <span style='color: red'>`prod`</span>...
 
-Who wants to guess?
+Who wants to take a guess?
 
 --
 
@@ -303,6 +325,10 @@ Who wants to guess?
 **Source:** [Pan *et al.* (2025)](https://arxiv.org/abs/2512.04123)
 
 </small>
+
+--
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/rwabBOXeu2E" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 --
 
