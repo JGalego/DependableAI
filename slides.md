@@ -31,6 +31,62 @@ Invited Professor @ ISEG
 
 ---
 
+# `$ whoami`
+
+--
+
+## Academic Background
+
+MSc Physics <br><img src="https://upload.wikimedia.org/wikipedia/en/2/20/Instituto_Superior_T%C3%A9cnico_logo.png" width=10%/>
+<br>PgDip Forensics<span style='color: blue'>*</span> <br><img src="https://upload.wikimedia.org/wikipedia/commons/4/41/Logo_ISCSP.jpg" width=10%/>
+<br>PhD Cognitive Science<span style='color: red'>**</span><br><img src="https://cdn.prod.website-files.com/652d692b07725fb22536129d/66b365b6316cd1b4aaaf471a_FMUL%20(1).png" width=10%/> <img src="https://upload.wikimedia.org/wikipedia/commons/2/2b/Logo_Faculdade_Ci%C3%AAncias_Lisboa.png" width=10%/> <img src="https://www.ulisboa.pt/sites/default/files/styles/large/public/images/base_image/2026-02/15676-af2a9130a451f295fe7d4da27cce7272.png?itok=zfUU1qs7" width=10%/> <img src="https://fenix.psicologia.ulisboa.pt/api/bennu-portal/configuration/logo" width=15%/>
+
+<small>
+
+<span style='color: blue'>* **Not-so-fun fact:** I once performed an autopsy</span> {.fragment .fade-in}
+
+<span style='color: red'>** Dropped out to live life and have fun doing it</span> {.fragment .fade-in}
+
+</small>
+
+--
+
+## Professional Experience
+
+Lead ML Engineer
+
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/Siemens-logo.svg/1280px-Siemens-logo.svg.png" width=10%/>
+
+Solutions Architect
+
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/93/Amazon_Web_Services_Logo.svg/960px-Amazon_Web_Services_Logo.svg.png" width=10%/>
+
+Head of AI
+
+<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSmLlF5f6RYlawJxa2vllr14ZG6y1lXFZF5oA&s" width=10%/>
+
+--
+
+<img src="assets/images/pre_tenets.png" width=80%/>
+
+--
+
+## TL;DR
+
+Break things at scale
+
+Build things faster
+
+Make brains<span style='color: red'>*</span> go brrr
+
+<small>
+
+<span style='color: red'>* **all** brain types welcome!</span>
+
+</small>
+
+---
+
 # Agenda 📋
 
 --
@@ -43,15 +99,13 @@ great demos, fragile products
 
 ## Why AI <span style='color: red'>fails</span>
 
-why models aren't (usually) the problem
+and why models aren't the problem
 
 --
 
 ## <span style='color: red'>Dependable</span> AI
 
-from models to systems
-
-from systems to society {.fragment .fade-in}
+models $\rightarrow$ systems $\rightarrow$ society
 
 --
 
@@ -183,10 +237,6 @@ When it comes to AI adoption,<br> 64% of companies lack a clear roadmap <br>with
 
 <img src="assets/images/real_world_software.png" width=80%/><br>
 
---
-
-<img src="assets/images/uml_for_ai.jpg" width=50%/>
-
 ---
 
 # Why AI <span style='color: red'>fails</span>
@@ -221,6 +271,26 @@ It's about <span style='color: red'>**RELIABILITY**</span>. {.fragment .fade-in}
 ## BUT
 
 > Can we **trust** it when it matters?
+
+--
+
+### Let's play a game...
+
+<img src="https://images.steamusercontent.com/ugc/859477345544979042/0A998221D53DC9EA07FB68FA278023D49DCEF44F/?imw=5000&imh=5000&ima=fit&impolicy=Letterbox&imcolor=%23000000&letterbox=false"/>
+
+--
+
+### There are 3 main reasons <br> why ML systems are removed <br>from <span style='color: red'>`prod`</span>...
+
+Who wants to guess?
+
+--
+
+### 🥉 Cost {.fragment .fade-in}
+
+### 🥈 Security {.fragment .fade-in}
+
+### 🥇 <span style='color: red'>**RELIABILITY**</span> {.fragment .fade-in}
 
 --
 
@@ -1396,6 +1466,18 @@ Model --> Metrics
 ### The model is just the <span style='color: red'>beginning</span>...
 
 We need to move from models to systems!
+
+--
+
+<img src="assets/images/uml_for_ai.jpg" width=50%/>
+
+--
+
+This thread reveals 3 things:
+
+- Engineers don't know their history
+- Tool creators have massive egos
+- The importance of **modelling the model**
 
 --
 
