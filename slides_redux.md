@@ -35,19 +35,19 @@ Invited Professor @ ISEG
 
 --
 
-## Mind the gap
+## Mind the <span style='color: red'>gap</span>
 
 great demos, fragile products
 
 --
 
-## Why AI fails
+## Why AI <span style='color: red'>fails</span>
 
 why models aren't (usually) the problem
 
 --
 
-## Dependable AI
+## <span style='color: red'>Dependable</span> AI
 
 from models to systems
 
@@ -59,7 +59,7 @@ building systems people can trust
 
 ---
 
-# Mind the gap
+# Mind the <span style='color: red'>gap</span>
 
 --
 
@@ -119,9 +119,17 @@ When it comes to AI adoption,<br> 64% of companies lack a clear roadmap <br>with
 
 --
 
+<img src="assets/images/mit_study.png" width=80%/>
+
+<img src="assets/images/wharton_study.png" width=80%/> {.fragment .fade-in}
+
+--
+
 ## The AI <span style='color: red'>production gap</span> <br>is real and growing...
 
 --
+
+### The AI Production Gap
 
 <img src="assets/images/ai_production_gap.png" width=80%/>
 
@@ -147,7 +155,7 @@ It's about <span style='color: red'>**RELIABILITY**</span>. {.fragment .fade-in}
 
 ## BUT
 
-> Can we **trust** it when it matters?
+> Can we <span style='color: green'>**trust**</span> it when it matters?
 
 --
 
@@ -369,13 +377,9 @@ that safely amplify our capabilities. {.fragment .fade-in}
 
 --
 
-### Real engineering doesn't stop at
+#### Real engineering doesn't stop at <span style='color: red'>*it works*</span>
 
-### <span style='color: red'>*it works*</span> {.fragment .fade-in}
-
---
-
-### It begins at <span style='color: green'><u>**it lasts**</u></span>
+### It begins at <span style='color: green'><u>**it lasts**</u></span> {.fragment .fade-in}
 
 --
 
