@@ -61,6 +61,12 @@ building systems people can trust
 
 --
 
+## PR<span style='color: red'>FAQ</span>
+
+what you might be wondering,<br> but were afraid to ask
+
+--
+
 ## Want to dive deeper?
 
 [awesome.critical-ai.dev](https://awesome.critical-ai.dev)
@@ -1634,3 +1640,71 @@ $$\cdots$$
 ## Build AI that <span style='color: green'>matters</span>
 
 AI first, human always!
+
+---
+
+# PR<span style='color: red'>FAQ</span>
+
+--
+
+<img src="assets/images/prfaq_lambda.png" width=60%/>
+
+--
+
+### LISBON – (Mar 2026)
+
+A new talk titled 'Build AI That Matters' <br>introduces a practical framework for designing <br>dependable AI systems that deliver<br> real-world impact.
+
+--
+
+### Why isn't model accuracy enough?
+
+--
+
+Production failures rarely originate<br> from the model itself.
+
+$$\cdots$$
+
+Dependability requires addressing <br>the **entire system**. {.fragment .fade-in}
+
+--
+
+### Doesn't adding reliability slow innovation?
+
+--
+
+No, it makes deployments **sustainable**.
+
+$$\cdots$$
+
+Without it, repeated failures erode trust <br>and slow adoption. {.fragment .fade-in}
+
+--
+
+### What role do humans play?
+
+--
+
+Humans are not replaced by AI.
+
+$$\cdots$$
+
+They are part of the system that ensures <br> **safety and accountability**. {.fragment .fade-in}
+
+--
+
+### What is the key takeaway?
+
+--
+
+AI creates value only when it is <br>**reliable** enough to be **trusted**.
+
+$$\cdots$$
+
+The future of AI will be shaped <br>not just by better models, but by better <br>**engineering** of the systems around them. {.fragment .fade-in}
+
+---
+
+## Thank you!
+
+🙏
