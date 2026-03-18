@@ -904,11 +904,11 @@ The [ECSS ML handbook](https://ecss.nl/home/ecss-e-hb-40-02a-15-november-2024/) 
 
 --
 
-Here's a crash course on formal methods <br>for software verification...
+Here's a crash course on **formal methods** <br>for software verification...
 
 --
 
-<img src="https://media.springernature.com/full/springer-static/cover-hires/book/978-1-4612-4222-2" width=50%/><br>
+<img src="https://media.springernature.com/full/springer-static/cover-hires/book/978-1-4612-4222-2" width=30%/><br>
 
 \* Oldie, but goodie!
 
@@ -974,15 +974,15 @@ $$f \mapsto \texttt{E}[f] = \int^{\min\[\text{EOL}, ~+\infty\]}_{\max\[-\infty, 
 
 --
 
-##### Our Goal
+##### Our Mission
 
-Ensure that certain properties<br>hold **at all times**.
+Ensure that certain properties hold **at all times**.
 
 --
 
 ##### <span style='color: red'>Safety property</span>
 
-> "bad thing never happens"
+> bad thing never happens
 
 $$\square ~\neg \texttt{bad}$$
 
@@ -990,7 +990,7 @@ $$\square ~\neg \texttt{bad}$$
 
 #### <span style='color: green'>Liveness property</span>
 
-> "good thing eventually happens"
+> good thing eventually happens
 
 $$\diamond ~\texttt{good}$$
 
@@ -1004,7 +1004,7 @@ $$\diamond ~\texttt{good}$$
 
 --
 
-<img src="https://user-images.githubusercontent.com/2473733/63008456-f364b480-be82-11e9-83cc-f9286d43bc90.png" width=70%/>
+<img src="https://user-images.githubusercontent.com/2473733/63008456-f364b480-be82-11e9-83cc-f9286d43bc90.png" width=50%/>
 
 --
 
@@ -1014,7 +1014,7 @@ $$\diamond ~\texttt{good}$$
 
 #### ONNX $\rightarrow$ <span style='color: red'>Safe</span> ONNX
 
-<img src="https://images.icon-icons.com/3913/PNG/512/onnx_logo_icon_248319.png" width=20%/>
+<img src="https://images.icon-icons.com/3913/PNG/512/onnx_logo_icon_248319.png" width=10%/>
 
 When AI fails, lives are at stake...
 
@@ -1394,11 +1394,13 @@ def check_coords_value(x, y, axis):
 
 --
 
-### When AI writes <br>most of the world's software... <br> who <span style='color: red'>verifies</span> it?
+### When AI writes <br>most of the software <br> in the world...
+
+who <span style='color: red'>verifies</span> it? {.fragment .fade-in}
 
 --
 
-> Most people think of verification as a cost, a tax on development, justified only for safety-critical systems. That framing is outdated. When AI can generate verified software as easily as unverified software, verification is no longer a cost. It is a catalyst.
+> Most people think of verification as a cost, a tax on development, justified only for safety-critical systems. **That framing is outdated.** When AI can generate verified software as easily as unverified software, verification is no longer a cost. It is a catalyst.
 
 <small>
 
@@ -1432,11 +1434,9 @@ def check_coords_value(x, y, axis):
 
 --
 
-### Intelligent or not...
+### 🔴 Breakpoint
 
-Building systems that *last* is
-
-<span style='color: red'>**HARD**</span>
+And know for a word from our sponsors!
 
 ---
 
@@ -1444,11 +1444,19 @@ Building systems that *last* is
 
 --
 
-## The <span style='color: red'>Real</span> Problem
+### Intelligent or not...
 
-The challenge isn't model accuracy.
+Building systems that *last* is
 
-It's system reliability under **UNCERTAINTY**.
+<span style='color: red'>**HARD**</span>
+
+--
+
+### When it comes to AI...
+
+The <span style='color: red'>real</span> challenge isn't model accuracy.
+
+It's system reliability under **UNCERTAINTY**. {.fragment .fade-in}
 
 --
 
@@ -1463,13 +1471,13 @@ Model --> Metrics
 
 --
 
-### The model is just the <span style='color: red'>beginning</span>...
+### But the model is only the <span style='color: red'>beginning</span>
 
 We need to move from models to systems!
 
 --
 
-<img src="assets/images/uml_for_ai.jpg" width=50%/>
+<img src="assets/images/uml_for_ai.jpg" width=40%/>
 
 --
 
