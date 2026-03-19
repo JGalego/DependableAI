@@ -29,7 +29,7 @@ jobs:
         run: npm install -g reveal-md
 
       - name: Build static site
-        run: reveal-md slides.md --static _site --vertical-separator "--"
+        run: reveal-md slides.md --static _site --vertical-separator="--"
 
       - name: Upload Pages artifact
         uses: actions/upload-pages-artifact@v4
