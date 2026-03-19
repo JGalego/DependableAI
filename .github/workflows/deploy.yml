@@ -25,11 +25,11 @@ jobs:
         with:
           node-version: 22
 
-      - name: Install reveal-md
-        run: npm install -g reveal-md
-
       - name: Build static site
-        run: reveal-md slides.md --static _site --vertical-separator="--"
+        run: |
+          mkdir -p _site
+          node md2slides.js slides.md _site/index.html
+          cp -r assets _site/assets
 
       - name: Upload Pages artifact
         uses: actions/upload-pages-artifact@v4
