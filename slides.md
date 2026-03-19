@@ -39,13 +39,13 @@ Invited Professor @ ISEG
 
 MSc Physics <br><img src="https://upload.wikimedia.org/wikipedia/en/2/20/Instituto_Superior_T%C3%A9cnico_logo.png" width=10%/>
 <br>PgDip Forensics<span style='color: blue'>*</span> <br><img src="https://upload.wikimedia.org/wikipedia/commons/4/41/Logo_ISCSP.jpg" width=10%/>
-<br>PhD Cognitive Science<span style='color: red'>**</span><br><img src="https://cdn.prod.website-files.com/652d692b07725fb22536129d/66b365b6316cd1b4aaaf471a_FMUL%20(1).png" width=10%/> <img src="https://upload.wikimedia.org/wikipedia/commons/2/2b/Logo_Faculdade_Ci%C3%AAncias_Lisboa.png" width=10%/> <img src="https://www.ulisboa.pt/sites/default/files/styles/large/public/images/base_image/2026-02/15676-af2a9130a451f295fe7d4da27cce7272.png?itok=zfUU1qs7" width=10%/> <img src="https://fenix.psicologia.ulisboa.pt/api/bennu-portal/configuration/logo" width=15%/>
+<br>PhD Cognitive Science / ABD<span style='color: red'>**</span><br><img src="https://cdn.prod.website-files.com/652d692b07725fb22536129d/66b365b6316cd1b4aaaf471a_FMUL%20(1).png" width=10%/> <img src="https://upload.wikimedia.org/wikipedia/commons/2/2b/Logo_Faculdade_Ci%C3%AAncias_Lisboa.png" width=10%/> <img src="https://www.ulisboa.pt/sites/default/files/styles/large/public/images/base_image/2026-02/15676-af2a9130a451f295fe7d4da27cce7272.png?itok=zfUU1qs7" width=10%/> <img src="https://fenix.psicologia.ulisboa.pt/api/bennu-portal/configuration/logo" width=15%/>
 
 <small>
 
-<span style='color: blue'>* **Not-so-fun fact:** I once performed an autopsy</span> {.fragment .fade-in}
+<span style='color: blue'>* **Not-so-fun fact:** I once performed an autopsy</span>
 
-<span style='color: red'>** Dropped out to live life and have fun doing it</span> {.fragment .fade-in}
+<span style='color: red'>** Dropped out to live life and have fun doing it</span>
 
 </small>
 
@@ -118,6 +118,48 @@ building systems people can trust
 ## PR<span style='color: red'>FAQ</span>
 
 what you might be wondering,<br> but were afraid to ask
+
+--
+
+## This talk was inspired by...
+
+[Machine Learning that matters](https://arxiv.org/abs/1206.4656) by Kiri Wagstaff
+
+<img src="assets/images/ml_that_matters1.png" width=30%/> <img src="assets/images/ml_that_matters2.png" width=30%/>
+
+--
+
+### In my first month at Critical...
+
+a colleague pulled me aside and said
+
+> "what you do is <span style='color: red'>not</span> engineering" {.fragment .fade-in}
+
+--
+
+### My first reaction?
+
+Offense {.fragment .fade-in}
+
+### My second? {.fragment .fade-in}
+
+Denial {.fragment .fade-in}
+
+> *"There's more to ML <br>than meets the eye..."* {.fragment .fade-in}
+
+--
+
+### One year later...
+
+I owe them an apology
+
+<span style='color: red'>They were right</span> {.fragment .fade-in}
+
+--
+
+### This talk is my attempt
+
+to set the record straight
 
 --
 
