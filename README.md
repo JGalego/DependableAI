@@ -1,4 +1,4 @@
-# Build AI that matters 🌱
+# [Build AI that matters](https://dependable.critical-ai.dev) 🌱
 
 Dependable AI systems for real-world impact.
 
@@ -8,16 +8,15 @@ Dependable AI systems for real-world impact.
 
 ## Getting Started
 
-1. Start the presentation in your browser.
+Start the presentation in your browser.
 
-    ```bash
-    npm install -g reveal-md
-    reveal-md --vertical-separator="--" slides_redux.md
-    ```
+```bash
+node md2slides.js slides.md index.html
+npx serve
+```
 
-2. Convert the markdown to PDF.
+Convert the published page to PDF.
 
-    ```bash
-    npm install -g @marp-team/marp-cli
-    marp slides.md --pdf --output slides.pdf
-    ```
+```bash
+npx decktape https://dependable.critical-ai.dev slides.pdf
+```
