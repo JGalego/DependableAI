@@ -166,7 +166,8 @@ function generateHTML(slides, meta) {
   const slideNumber     = meta.slideNumber     !== undefined ? meta.slideNumber : false;
   const fragments       = meta.fragments       !== undefined ? meta.fragments   : true;
 
-  const CDN = 'https://cdn.jsdelivr.net/npm/reveal.js@4.3.1';
+  const CDN     = 'https://cdn.jsdelivr.net/npm/reveal.js@4.3.1';
+  const MENU_CDN = 'https://cdn.jsdelivr.net/npm/reveal.js-menu@2.1.0';
 
   return `<!DOCTYPE html>
 <html lang="en">
@@ -178,6 +179,7 @@ function generateHTML(slides, meta) {
   <link rel="stylesheet" href="${CDN}/dist/reveal.css"/>
   <link rel="stylesheet" href="${CDN}/dist/theme/${theme}.css"/>
   <link rel="stylesheet" href="${CDN}/plugin/highlight/${highlightTheme}.css"/>
+  <link rel="stylesheet" href="${MENU_CDN}/menu.css"/>
 </head>
 <body>
 <div class="reveal">
@@ -193,13 +195,20 @@ ${buildSections(slides)}
 <script src="${CDN}/plugin/math/math.js"></script>
 <script src="${CDN}/plugin/search/search.js"></script>
 <script src="${CDN}/plugin/zoom/zoom.js"></script>
+<script src="${MENU_CDN}/menu.js"></script>
 <script>
   Reveal.initialize({
     hash: true,
     fragments: ${JSON.stringify(fragments)},
     slideNumber: ${JSON.stringify(slideNumber)},
     transition: ${JSON.stringify(transition)},
-    plugins: [ RevealNotes, RevealHighlight, RevealMath.MathJax3, RevealSearch, RevealZoom ]
+    menu: {
+      side: 'left',
+      hideMissingTitles: true,
+      markers: true,
+      openButton: true,
+    },
+    plugins: [ RevealNotes, RevealHighlight, RevealMath.MathJax3, RevealSearch, RevealZoom, RevealMenu ]
   });
 </script>
 </body>
