@@ -18,5 +18,5 @@ npx serve
 Convert the published page to PDF.
 
 ```bash
-npx decktape https://dependable.critical-ai.dev slides.pdf
+npx decktape reveal https://dependable.critical-ai.dev slides.pdf
 ```
