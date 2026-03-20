@@ -4,7 +4,7 @@ Dependable AI systems for real-world impact.
 
 **Want to dive deeper?** Check out [critical-ai.dev](https://critical-ai.dev)
 
-![](assets/images/real_engineering.png)
+<img src="assets/images/real_engineering.png" width=50%/>
 
 ## Getting Started
 

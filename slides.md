@@ -264,7 +264,7 @@ When it comes to AI adoption,<br> 64% of companies lack a clear roadmap <br>with
 
 --
 
-### <span style='color: red'>Not-So-Hidden</span> technical debt in ML systems
+### Hidden technical debt is not so <span style='color: red'>hidden</span> anymore
 
 <img src="assets/images/hidden_technical_debt.png" width=80%/><br>
 
@@ -331,13 +331,9 @@ It's about <span style='color: red'>**RELIABILITY**</span>. {.fragment .fade-in}
 
 --
 
-### Vacuum cleaning is *simple*... right?
-
 <img src="assets/images/vacuum_cleaner_world1.png" width=60%/>
 
 --
-
-### Vacuum cleaning is *simple*... right?
 
 <img src="assets/images/vacuum_cleaner_world2.jpg" width=80%/>
 
