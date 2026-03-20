@@ -196,12 +196,16 @@ ${buildSections(slides)}
 </div>
 <script src="${CDN}/dist/reveal.js"></script>
 <script src="${CDN}/plugin/notes/notes.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/highlight.min.js"></script>
-<script src="https://unpkg.com/highlightjs-why3@1.0.0/dist/why3.min.js"></script>
 <script src="${CDN}/plugin/math/math.js"></script>
 <script src="${CDN}/plugin/search/search.js"></script>
 <script src="${CDN}/plugin/zoom/zoom.js"></script>
 <script src="${MENU_CDN}/menu.js"></script>
+
+<!-- 3rd party highlight.js grammars -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/highlight.min.js"></script>
+<script src="https://unpkg.com/highlightjs-why3@1.0.0/dist/why3.min.js"></script>
+<script src="https://unpkg.com/highlightjs-lean@1.2.0/dist/lean.min.js"></script>
+
 <script>
   Reveal.initialize({
     hash: true,
