@@ -1485,13 +1485,15 @@ research $\rightarrow$ engineering {.fragment .fade-in}
 
 <span style='color: red'>real problems for real people</span>
 
-$$\cdots$$
+--
 
 #### Engineering does not stop at *it works*
 
 <span style='color: red'>it begins at <u>**it lasts**</u></span>
 
 --
+
+Here's my call to action:
 
 ## Build AI that <span style='color: green'>matters</span>
 
