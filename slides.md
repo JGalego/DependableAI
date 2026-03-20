@@ -2,7 +2,7 @@
 theme: white
 transition: slide
 highlightTheme: monokai
-slideNumber: false
+slideNumber: "c/t"
 enableZoom: true
 logoImg: null
 title: Build AI that matters 🌱

@@ -182,6 +182,11 @@ function generateHTML(slides, meta) {
   <link rel="stylesheet" href="${MENU_CDN}/menu.css"/>
 </head>
 <body>
+<script>
+  // decktape (Puppeteer) sets navigator.webdriver = true.
+  // Mimic reveal.js print-pdf mode so .pdf-thumbnail shows and .video-embed hides.
+  if (navigator.webdriver) document.body.classList.add('print-pdf');
+</script>
 <div class="reveal">
   <div class="slides">
 
