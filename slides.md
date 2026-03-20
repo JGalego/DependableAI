@@ -810,13 +810,30 @@ Instead, **constrain** it so it can't be <u>un</u>safe. {.fragment .fade-in}
 
 --
 
-### Safety Envelope > Doer/Checker
+### Doer / Checker Architecture
 
-<img src="assets/images/doer_checker_pair.png" width=70%/><br>
+<img src="assets/images/doer_checker_pair.png" width=50%/><br>
 
 --
 
-### Safety Envelope > Doer/Checker
+```mermaid
+sequenceDiagram
+    participant I as Input
+    participant D as Doer
+    participant C as Checker
+    participant O as Output
+
+    I->>D: Redundant Inputs
+    I->>C: Redundant Inputs
+    D->>C: Candidate Output
+    alt Safe ✅
+        C->>O: Output
+    else Unsafe ❌
+        C->>D: Safety Shutdown 🛑
+    end
+```
+
+--
 
 The **doer** optimizes for performance.
 
@@ -824,7 +841,7 @@ The **checker** handles <span style='color: red'>**safety**</span>. {.fragment .
 
 --
 
-### Doer/Checker > Automotive
+#### Doer/Checker > Automotive
 
 The **doer** can be low SIL ⬇️ 
 
@@ -836,7 +853,7 @@ The **checker** <u>*must*</u> be **high** SIL 🚨 {.fragment .fade-in}
 
 Safety Integrity Levels (SIL)
 
-<img src=https://instrumentationtools.com/wp-content/uploads/2015/12/instrumentationtools.com_sil-levels.png width=80%/>
+<img src=https://instrumentationtools.com/wp-content/uploads/2015/12/instrumentationtools.com_sil-levels.png width=60%/>
 
 --
 
@@ -844,7 +861,13 @@ Safety Integrity Levels (SIL)
 
 Development Assurance Levels (DAL)
 
-<img src=https://mistralsolutions.com/wp-content/uploads/2025/12/DO-254-DAL-Levels-e1628830540209.png width=80%/>
+<img src=https://mistralsolutions.com/wp-content/uploads/2025/12/DO-254-DAL-Levels-e1628830540209.png width=60%/>
+
+--
+
+##### [NASA on using LLMs for Assurance](https://ntrs.nasa.gov/citations/20250001849)
+
+<img src="assets/images/nasa_llm_assurance.png" width=60%/>
 
 --
 
@@ -862,15 +885,45 @@ Is this application DAL-C or DAL-D?
 
 --
 
-##### [NASA on using LLMs for Assurance](https://ntrs.nasa.gov/citations/20250001849)
+### N-Version Architecture
 
-<img src="assets/images/nasa_llm_assurance.png" width=80%/>
+Different versions of ML models and/or their inputs are used in a system to improve the output reliability.
 
 --
 
-#### (Neural) Simplex Architecture
+#### 2-Version Variants
 
-<img src="assets/images/neural_simplex_architecture.png"><br>
+<img src="assets/images/2_version_architectures.png" width=80%/><br>
+
+<small>
+
+**Source:** Adapted from [Machida (2019)](https://www.sd.cs.tsukuba.ac.jp/en/n-version_mls.html)
+
+</small>
+
+--
+
+#### 3-Version Variants
+
+<img src="assets/images/3_version_architectures.png" width=80%/><br>
+
+<small>
+
+**Source:** Adapted from [Machida (2019)](https://www.sd.cs.tsukuba.ac.jp/en/n-version_mls.html)
+
+</small>
+
+--
+
+#### Voter Architectures
+
+<img src="assets/images/voter_architectures.png" width=70%/><br>
+
+--
+
+### (Neural) Simplex Architecture
+
+<img src="assets/images/neural_simplex_architecture.png" width=60%/><br>
 
 <small>
 
