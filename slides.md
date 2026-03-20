@@ -778,13 +778,13 @@ Let's turn to the [ECSS ML handbook](https://ecss.nl/home/ecss-e-hb-40-02a-15-no
 
 --
 
-**Golden Rule #1**
+### Golden Rule #1
 
 > Do <span style='color: red'>**NOT**</span> build AI <br>just because you have data.
 
 --
 
-**Golden Rule #2**
+### Golden Rule #2
 
 > Do <span style='color: red'>**NOT**</span> use AI <br>just because you can.
 
@@ -1492,8 +1492,6 @@ research $\rightarrow$ engineering {.fragment .fade-in}
 <span style='color: red'>it begins at <u>**it lasts**</u></span>
 
 --
-
-Here's my call to action:
 
 ## Build AI that <span style='color: green'>matters</span>
 
