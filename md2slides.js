@@ -196,7 +196,8 @@ ${buildSections(slides)}
 </div>
 <script src="${CDN}/dist/reveal.js"></script>
 <script src="${CDN}/plugin/notes/notes.js"></script>
-<script src="${CDN}/plugin/highlight/highlight.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/highlight.min.js"></script>
+<script src="https://unpkg.com/highlightjs-why3@1.0.0/dist/why3.min.js"></script>
 <script src="${CDN}/plugin/math/math.js"></script>
 <script src="${CDN}/plugin/search/search.js"></script>
 <script src="${CDN}/plugin/zoom/zoom.js"></script>
@@ -213,8 +214,8 @@ ${buildSections(slides)}
       markers: true,
       openButton: true,
     },
-    plugins: [ RevealNotes, RevealHighlight, RevealMath.MathJax3, RevealSearch, RevealZoom, RevealMenu ]
-  });
+    plugins: [ RevealNotes, RevealMath.MathJax3, RevealSearch, RevealZoom, RevealMenu ]
+  }).then(() => hljs.highlightAll());
 </script>
 </body>
 </html>`;

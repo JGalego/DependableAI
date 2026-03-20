@@ -1167,7 +1167,39 @@ So let's fix the language first!
 
 ##### Docs $\rightarrow \cdots \rightarrow$ [Why3](https://why3.org/)
 
-<img src="assets/images/flatten_whyml.png" width=70%/>
+```why3
+module COPFlatten
+
+    use OPFlatten
+    use tensor.Tensor
+    use list.List
+    use list.Length
+    use int.Int
+    use libtensor.CTensor
+    use libvector.CIndex
+    use std.Clib
+    use mach.int.Int32
+    use std.Cfloat
+
+    let cflatten (x r : ctensor) (axis: int32)
+    requires { valid_tensor x }
+    requires { valid_tensor r }
+    requires { r.t_rank = 2 }
+    requires {  let axis_normalized = normalize_axis (to_int axis) (length (tensor x).dims) in  
+                (ivector r.t_dims r.t_rank) = flat_dims (tensor x) axis_normalized }
+    requires { vdim x.t_dims x.t_rank = vdim r.t_dims r.t_rank }
+    requires { -length (tensor x).dims <= (to_int axis) <= length (tensor x).dims }
+    ensures { tensor r = flatten (tensor x) (to_int axis) }
+    =
+    let m = cdim_size r.t_dims r.t_rank in
+    for i = 0 to m - 1 do
+        invariant { forall k. 0 <= k < i -> value_at r.t_data k = value_at x.t_data k }
+        r.t_data[i] <- x.t_data[i]
+    done;
+    assert { tensor r == flatten (tensor x) (to_int axis) }
+
+end
+```
 
 --
 
