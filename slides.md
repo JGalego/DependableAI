@@ -13,6 +13,9 @@ author: João Galego
     .reveal h1, .reveal h2, .reveal h3, .reveal h4, .reveal h5 {
                   text-transform: none;
           }
+    .pdf-thumbnail { display: none; }
+    .print-pdf .pdf-thumbnail { display: block; }
+    .print-pdf .video-embed { display: none; }
 </style>
 
 # Build <span style='color: red'>AI</span> that matters
@@ -322,6 +325,12 @@ It's about <span style='color: red'>**RELIABILITY**</span>. {.fragment .fade-in}
 
 --
 
+### Vacuun cleaning is **simple**... right?
+
+<img src="https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1385600294i/27543.jpg" width=30%/>
+
+--
+
 ### Vacuum cleaning is *simple*... right?
 
 <img src="assets/images/vacuum_cleaner_world1.png" width=60%/>
@@ -334,7 +343,8 @@ It's about <span style='color: red'>**RELIABILITY**</span>. {.fragment .fade-in}
 
 --
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/fjRWHmvYTbM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<div class="video-embed"><iframe width="560" height="315" src="https://www.youtube.com/embed/fjRWHmvYTbM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+<div class="pdf-thumbnail"><a href="https://www.youtube.com/watch?v=fjRWHmvYTbM" target="_blank"><img src="https://img.youtube.com/vi/fjRWHmvYTbM/hqdefault.jpg" width="560"/></a></div>
 
 --
 
@@ -370,7 +380,16 @@ Who wants to take a guess?
 
 --
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/rwabBOXeu2E" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+#### And just when you thought it would work...
+
+<img src="assets/images/rube_goldberg.gif" width=50%/>
+
+--
+
+#### ... you get this instead!
+
+<div class="video-embed"><iframe width="560" height="315" src="https://www.youtube.com/embed/rwabBOXeu2E" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+<div class="pdf-thumbnail"><a href="https://www.youtube.com/watch?v=rwabBOXeu2E" target="_blank"><img src="https://img.youtube.com/vi/rwabBOXeu2E/hqdefault.jpg" width="560"/></a></div>
 
 --
 
@@ -496,7 +515,8 @@ Nuclear energy and AI are converging <br>to shape the future
 
 #### Nuclear at Argonne / PRO-AID
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/a3Qo7jfX2Rk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<div class="video-embed"><iframe width="560" height="315" src="https://www.youtube.com/embed/a3Qo7jfX2Rk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+<div class="pdf-thumbnail"><a href="https://www.youtube.com/watch?v=a3Qo7jfX2Rk" target="_blank"><img src="https://img.youtube.com/vi/a3Qo7jfX2Rk/hqdefault.jpg" width="560"/></a></div>
 
 --
 
@@ -1468,7 +1488,7 @@ who <span style='color: red'>verifies</span> it? {.fragment .fade-in}
 
 --
 
-> Most people think of verification as a cost, a tax on development, justified only for safety-critical systems. **That framing is outdated.** When AI can generate verified software as easily as unverified software, verification is no longer a cost. It is a catalyst.
+> Most people think of verification as a cost, a tax on development, justified only for safety-critical systems. That framing is outdated. **When AI can generate verified software as easily as unverified software, verification is no longer a cost. It is a catalyst**.
 
 <small>
 
@@ -1735,6 +1755,14 @@ AI acts autonomously, but humans <br>monitor and can intervene.
 ### Human <span style='color: red'>over</span> the loop
 
 AI operates independently, while humans <br>set goals and review outcomes.
+
+--
+
+### *"Quis custodiet ipsos custodes?"*
+
+Who will watch the watchmen?
+
+<img src="assets/images/useless_box.gif" width=50%/>
 
 --
 
