@@ -148,8 +148,6 @@ Offense {.fragment .fade-in}
 
 Denial {.fragment .fade-in}
 
-> *"There's more to ML <br>than meets the eye..."* {.fragment .fade-in}
-
 --
 
 ### One year later...
@@ -234,15 +232,15 @@ When it comes to AI adoption,<br> 64% of companies lack a clear roadmap <br>with
 
 --
 
-## The AI <span style='color: red'>production gap</span> <br>is real and growing...
+### The AI <span style='color: red'>production gap</span> is real...
 
---
-
-<img src="assets/images/ai_production_gap.png" width=80%/>
+<img src="assets/images/ai_production_gap.png" width=90%/>
 
 --
 
 <img src="assets/images/mit_study.png" width=70%/>
+
+#### ... and we're still getting <span style='color: red'>mixed</span> signals...
 
 <img src="assets/images/wharton_study.png" width=70%/> {.fragment .fade-in}
 
@@ -264,7 +262,7 @@ When it comes to AI adoption,<br> 64% of companies lack a clear roadmap <br>with
 
 --
 
-### Hidden technical debt is not so <span style='color: red'>hidden</span> anymore
+### Technical debt is not so <span style='color: red'>hidden</span> anymore
 
 <img src="assets/images/hidden_technical_debt.png" width=80%/><br>
 
@@ -276,7 +274,7 @@ When it comes to AI adoption,<br> 64% of companies lack a clear roadmap <br>with
 
 --
 
-## ML is just <span style='color: red'>one among many</span> <br>components...
+## In real applications, ML is just <span style='color: red'>one among many</span> components...
 
 --
 
@@ -325,17 +323,25 @@ It's about <span style='color: red'>**RELIABILITY**</span>. {.fragment .fade-in}
 
 --
 
-### Vacuum cleaning is *simple*... right?
+### This little guy changed the world of robotics forever...
+
+<img src="https://substackcdn.com/image/fetch/$s_!kUBF!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F2f012bec-6264-4e4c-92a9-64ce5c39e6e1_2042x1178.png" width=80%/>
+
+--
+
+### It has a long and storied history...
+
+<img src="https://irobotthailand.com/wp-content/themes/irobots/assets/images/about/History-Companyinformaion.png" width=90%/>
+
+--
+
+### Vacuum cleaning is *simple*, right?
 
 <img src="https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1385600294i/27543.jpg" width=30%/>
 
 --
 
-<img src="assets/images/vacuum_cleaner_world1.png" width=60%/>
-
---
-
-<img src="assets/images/vacuum_cleaner_world2.jpg" width=80%/>
+<img src="assets/images/vacuum_cleaner_world1.png" width=35%/> <img src="assets/images/vacuum_cleaner_world2.jpg" width=55%/>
 
 --
 
@@ -350,17 +356,19 @@ It's about <span style='color: red'>**RELIABILITY**</span>. {.fragment .fade-in}
 
 --
 
-### There are 3 main reasons <br> why ML systems are removed <br>from <span style='color: red'>`prod`</span>...
+### There are 3 main reasons why ML systems are removed from <span style='color: red'>`prod`</span>...
 
 Who wants to take a guess?
 
 --
 
-### 🥉 Cost {.fragment .fade-in}
+### Here are the winners...
 
-### 🥈 Security {.fragment .fade-in}
+#### 🥉 Cost {.fragment .fade-in}
 
-### 🥇 <span style='color: red'>**RELIABILITY**</span> {.fragment .fade-in}
+#### 🥈 Security {.fragment .fade-in}
+
+#### 🥇 <span style='color: red'>**RELIABILITY**</span> {.fragment .fade-in}
 
 --
 
@@ -528,7 +536,7 @@ What it is & why it's a bad idea
 
 quietly running in the background
 
-until something goes ʷrₒnᵍ {.fragment .fade-in}
+until something goes <span style='background-color: red; color: white'>wrong</span> {.fragment .fade-in}
 
 --
 
@@ -570,7 +578,7 @@ real accidents happen! {.fragment .fade-in}
 
 Lost a spacecraft because one team <br>used metric and the other used imperial 📏
 
-<img src=https://mars.nasa.gov/system/content_pages/main_images/375_mco_mapping.jpg width=50%/>
+<img src=https://mars.nasa.gov/system/content_pages/main_images/375_mco_mapping.jpg width=40%/>
 
 --
 
@@ -598,12 +606,6 @@ Spaghetti code broke the brakes 🚗
 
 --
 
-### Key Point
-
-Complex systems fail in ways we can't predict.
-
---
-
 ### Good enough is <span style='color: red'>not</span> good enough
 
 At least, not in critical systems
@@ -620,11 +622,13 @@ At least, not in critical systems
 
 --
 
-## When the stakes are this high...
+## If the stakes are this high...
 
-Where does that leave AI in <span style='color: red'>critical</span> systems?
+Is it really a good idea to bring AI to <span style='color: red'>critical</span> systems? {.fragment .fade-in}
 
-Is it really a good idea? {.fragment .fade-in}
+--
+
+## Let's take a step back...
 
 --
 
@@ -652,14 +656,6 @@ style Output fill:red,color:#fff
 
 --
 
-You write the rules
-
-You know what it will do {.fragment .fade-in}
-
-You know why it broke {.fragment .fade-in}
-
---
-
 #### What is <span style='color: red'>determinism</span>?
 
 <img src=assets/images/determinism.png width=70%/><br>
@@ -669,6 +665,16 @@ You know why it broke {.fragment .fade-in}
 **Source:** [Andersson *et al.* (2024)](https://ieeexplore.ieee.org/document/10748739)
 
 </small>
+
+--
+
+You write the rules
+
+You know what it will do {.fragment .fade-in}
+
+You know why it broke {.fragment .fade-in}
+
+#### <span style='color: red'>You</span> are in control {.fragment .fade-in}
 
 --
 
@@ -716,9 +722,11 @@ You shift the agency to **data**:
 
 You <u>didn't</u> write the rules
 
-You <u>don't</u> always know what it will do
+You <u>don't</u> always know what it will do {.fragment .fade-in}
 
-You <u>don't</u> always know why it broke
+You <u>don't</u> always know why it broke {.fragment .fade-in}
+
+#### You are <span style='color: red'>not</span> in control {.fragment .fade-in}
 
 --
 
@@ -764,13 +772,13 @@ often in **strange** and **unpredictable** ways {.fragment .fade-in}
 
 --
 
-## How can we fight this?
+## What should we do about it?
 
 Let's turn to the [ECSS ML handbook](https://ecss.nl/home/ecss-e-hb-40-02a-15-november-2024/)... {.fragment .fade-in}
 
 --
 
-<img src="assets/images/ecss_ml_handbook.png"/>
+<img src="assets/images/ecss_ml_handbook_cover.png" width=40%/> <img src="assets/images/ecss_ml_handbook_toc.png" width=40%/><br>
 
 --
 
@@ -788,13 +796,11 @@ Let's turn to the [ECSS ML handbook](https://ecss.nl/home/ecss-e-hb-40-02a-15-no
 
 ### Safety Cage Architecture
 
-<img src="assets/images/safety_cage.png" width=80%/>
+<img src="assets/images/safety_cage.png" width=60%/>
 
 --
 
-#### Key Idea
-
-<u>Don't</u> try to prove that ML is safe.
+#### <u>Don't</u> try to prove that ML is safe.
 
 Instead, **constrain** it so it can't be <u>un</u>safe. {.fragment .fade-in}
 
@@ -810,7 +816,7 @@ Instead, **constrain** it so it can't be <u>un</u>safe. {.fragment .fade-in}
 
 --
 
-### Doer / Checker Architecture
+### <span style='color: red'>Doer / Checker</span> Architecture
 
 <img src="assets/images/doer_checker_pair.png" width=50%/><br>
 
@@ -835,9 +841,9 @@ sequenceDiagram
 
 --
 
-The **doer** optimizes for performance.
+The doer optimizes for <span style='color: green'>performance</span>.
 
-The **checker** handles <span style='color: red'>**safety**</span>. {.fragment .fade-in}
+#### The checker handles <span style='color: red'>safety</span>. {.fragment .fade-in}
 
 --
 
@@ -873,7 +879,7 @@ Development Assurance Levels (DAL)
 
 ##### [Runway Sign Classifier](https://www.mathworks.com/help/deeplearning/ug/verify-an-airborne-deep-learning-system.html)
 
-Is this application DAL-C or DAL-D?
+Is this application DAL-C or DAL-D certifiable?
 
 <img src="assets/images/runway_sign_classifier.png" width=80%/><br>
 
@@ -885,7 +891,7 @@ Is this application DAL-C or DAL-D?
 
 --
 
-### N-Version Architecture
+### <span style='color: red'>N-Version</span> Architecture
 
 Different versions of ML models and/or their inputs are used in a system to improve the output reliability.
 
@@ -919,9 +925,15 @@ Different versions of ML models and/or their inputs are used in a system to impr
 
 <img src="assets/images/voter_architectures.png" width=70%/><br>
 
+<small>
+
+**Source:** [Flad (2026)](https://arxiv.org/abs/2603.14411v1)
+
+</small>
+
 --
 
-### (Neural) Simplex Architecture
+### (Neural) <span style='color: red'>Simplex</span> Architecture
 
 <img src="assets/images/neural_simplex_architecture.png" width=60%/><br>
 
@@ -935,7 +947,7 @@ Different versions of ML models and/or their inputs are used in a system to impr
 
 #### Simplex Architecture > Automotive
 
-<img src="assets/images/us10962972_simplex.png" width=80%/><br>
+<img src="assets/images/us10962972_simplex.png" width=60%/><br>
 
 --
 
@@ -1003,7 +1015,7 @@ but underspecified AI-related requirements."
 
 AI is part of the system.
 
-Test it like it is. {.fragment .fade-in}
+<span style='color: red'>So test it like it is.</span> {.fragment .fade-in}
 
 --
 
@@ -1025,13 +1037,13 @@ The [ECSS ML handbook](https://ecss.nl/home/ecss-e-hb-40-02a-15-november-2024/) 
 
 ### You may know about the V-Cycle...
 
-<img src="assets/images/v_cycle.png" width=80%/><br>
+<img src="assets/images/v_cycle.png" width=70%/><br>
 
 --
 
-### ... But what about the W-Cycle?
+### ... but what about the <span style='color: red'>W-Cycle</span>?
 
-<img src="assets/images/w_cycle.png" width=80%/><br>
+<img src="assets/images/w_cycle.png" width=70%/><br>
 
 <small>
 
@@ -1047,7 +1059,7 @@ The [ECSS ML handbook](https://ecss.nl/home/ecss-e-hb-40-02a-15-november-2024/) 
 
 --
 
-Here's a crash course on **formal methods** <br>for software verification...
+#### Here's a short crash course on <span style='color: red'>formal methods</span> for software verification...
 
 --
 
@@ -1093,7 +1105,11 @@ but <span style='color: red'><u>**when**</u></span> they do it. {.fragment .fade
 
 --
 
-There's a saying at Google...
+#### <span style='color: red'>Time</span> is the most important thing in engineering...
+
+--
+
+#### There's a saying at Google...
 
 > "Software engineering is programming integrated over **time**." {.fragment .fade-in}
 
@@ -1105,13 +1121,13 @@ Winters, Manshreck & Wright (2020)
 
 --
 
-If you take this *literally*...
+#### If you take this *literally*...
 
 $$\texttt{SWE} = \int \texttt{Programming} ~dt$$
 
 --
 
-Then engineering itself is just...
+#### Then engineering is just...
 
 $$f \mapsto \texttt{E}[f] = \int^{\min\[\text{EOL}, ~+\infty\]}_{\max\[-\infty, ~\text{idea}\]} f ~dt$$
 
@@ -1151,17 +1167,15 @@ $$\diamond ~\texttt{good}$$
 
 --
 
-<img src="assets/images/onnx_flatten_docs.png" width=70%/>
-
---
-
 #### ONNX $\rightarrow$ <span style='color: red'>Safe</span> ONNX
 
 <img src="https://images.icon-icons.com/3913/PNG/512/onnx_logo_icon_248319.png" width=10%/>
 
-When AI fails, lives are at stake...
+Let's make ONNX deterministic and fully verifiable...
 
-So let's fix the language first!
+--
+
+<img src="assets/images/onnx_flatten_docs.png" width=70%/>
 
 --
 
@@ -1247,7 +1261,7 @@ void cflatten(struct ctensor x, struct ctensor r, int32_t axis) {
 
 --
 
-### When AI writes <br>most of the software <br> in the world...
+### When AI writes most of software...
 
 who <span style='color: red'>verifies</span> it? {.fragment .fade-in}
 
