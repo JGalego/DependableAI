@@ -182,7 +182,7 @@ to set the record straight
 
 ### [Increased Spending](https://www.idc.com/getdoc.jsp?containerId=prUS49670322)
 
-<img src="assets/icons/increased_spending.png"/>
+<img src="assets/icons/increased_spending.svg"/>
 
 This year, global spending on AI <br>will reach $300B growing 4.2x faster<br> than average IT spend.
 
@@ -190,7 +190,7 @@ This year, global spending on AI <br>will reach $300B growing 4.2x faster<br> th
 
 ### [Widespread Adoption](https://www.gartner.com/document/4839631)
 
-<img src="assets/icons/widespread_adoption.png"/>
+<img src="assets/icons/widespread_adoption.svg"/>
 
 34% of enterprises have deployed <br>AI in production and 22% will <br>deploy in the next 12 months.
 
@@ -198,7 +198,7 @@ This year, global spending on AI <br>will reach $300B growing 4.2x faster<br> th
 
 ### [Generative AI Impact](https://www.mckinsey.com/capabilities/mckinsey-digital/our-insights/the-economic-potential-of-generative-ai-the-next-productivity-frontier#introduction)
 
-<img src="assets/icons/generative_ai_impact.png"/>
+<img src="assets/icons/generative_ai_impact.svg"/>
 
 Generative AI will increase <br>the impact of all AI by 15 to 40% <br>across all industries.
 
@@ -210,7 +210,7 @@ Generative AI will increase <br>the impact of all AI by 15 to 40% <br>across all
 
 ### [No Roadmap, No Results](https://finance.yahoo.com/news/organizations-accelerating-ai-investments-early-110000212.html)
 
-<img src="assets/icons/no_roadmap_no_results.png"/>
+<img src="assets/icons/no_roadmap_no_results.svg"/>
 
 When it comes to AI adoption,<br> 64% of companies lack a clear roadmap <br>with measurable goals.
 
@@ -218,7 +218,7 @@ When it comes to AI adoption,<br> 64% of companies lack a clear roadmap <br>with
 
 ### [Spending Big, Delivering Small](https://finance.yahoo.com/news/organizations-accelerating-ai-investments-early-110000212.html)
 
-<img src="assets/icons/spending_big_delivering_small.png"/>
+<img src="assets/icons/spending_big_delivering_small.svg"/>
 
 67% of organizations expect <br>to maintain or increase AI spending, yet <br>only 21% report any proven outcomes.
 
@@ -226,7 +226,7 @@ When it comes to AI adoption,<br> 64% of companies lack a clear roadmap <br>with
 
 ### [From Prototype To Nowhere](https://www.infoworld.com/article/2270692/why-ai-investments-fail-to-deliver.html)
 
-<img src="assets/icons/from_prototype_to_nowhere.png"/>
+<img src="assets/icons/from_prototype_to_nowhere.svg"/>
 
 86% of all AI projects <span style='color: red'>fail</span> to deliver, <br> while 50% **never** make it to production.
 

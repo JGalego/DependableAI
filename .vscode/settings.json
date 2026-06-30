@@ -1,0 +1,4 @@
+{
+  "// note": "Lets the Marp for VS Code live preview render the inline SVG diagrams in deck.md.",
+  "markdown.marp.enableHtml": true
+}

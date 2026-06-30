@@ -1,0 +1,4 @@
+# Marp CLI config — picked up automatically when you run `marp` in this repo.
+# html: true is required so the inline SVG diagrams render.
+html: true
+allowLocalFiles: false

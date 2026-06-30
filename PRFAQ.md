@@ -6,7 +6,7 @@ Dependable AI systems for real-world impact
 
 ## Press Release
 
-LISBON – (Mar 2026) – a new talk titled “Build AI That Matters” introduces a practical framework for designing dependable AI systems that deliver real-world impact.
+LISBON – (2026) – a new talk titled “Build AI That Matters” introduces a practical framework for designing dependable AI systems that deliver real-world impact.
 
 While the AI industry focuses heavily on larger models and benchmark scores, most real-world failures occur elsewhere - in the systems that surround the model. Data pipelines break, distributions shift, monitoring is missing, and humans cannot understand or intervene when systems behave unexpectedly.
 
@@ -14,19 +14,23 @@ While the AI industry focuses heavily on larger models and benchmark scores, mos
 
 The talk introduces a pragmatic approach for building dependable AI systems based on five pillars:
 
-- Data quality and validation
+- **Data** — quality, validation, and drift monitoring
 
-- Robust model evaluation
+- **Model** — robust evaluation beyond benchmark accuracy
 
-- System reliability and fail-safe design
+- **Observability** — continuous monitoring and feedback loops
 
-- Continuous monitoring and feedback loops
+- **Guardrails** — fail-safe design for when models fail
 
-- Human oversight and governance
+- **Humans** — oversight, intervention, and accountability
 
 Drawing lessons from safety-critical industries such as aviation, medicine, and infrastructure, the talk shows how AI practitioners can move beyond model-centric thinking and design systems that remain reliable under uncertainty.
 
+“Real-world impact was never about intelligence — it’s about reliability,” says João Galego, Head of AI at Critical Software and Invited Professor at ISEG Executive Education. “When AI runs where failure isn’t an option, the engineering around the model matters more than the model itself.”
+
 The goal is simple: *build AI systems that can be trusted when the stakes are high*.
+
+**Build AI That Matters** will be presented in Lisbon. Slides, references, and the full framework are available at [dependable.critical-ai.dev](https://dependable.critical-ai.dev).
 
 ---
 
@@ -200,7 +204,7 @@ Because most teams optimize models, while real-world reliability depends on syst
 
 **Dive Deep**
 
-Typical ML workflows focus on `dataset → model → evaluation`.
+Typical ML workflows focus on `dataset → model → evaluation`, and benchmarks measure the model under controlled conditions.
 
 But production AI systems involve many additional components:
 
@@ -238,51 +242,9 @@ Better models reduce some errors, but they cannot eliminate system failures.
 
 **Dive Deep**
 
-Model improvements help with:
-
-- accuracy
-
-- reasoning
-
-- generalization
-
-But many real-world failures are unrelated to model intelligence.
-
-For example:
-
-- bad input data
-
-- sensor malfunction
-
-- integration bugs
-
-- unexpected user behavior
-
-- distribution shift
+Bigger models help with accuracy, reasoning, and generalization — but most production failures are unrelated to model intelligence: bad input data, sensor malfunctions, integration bugs, unexpected user behavior, distribution shift.
 
 No matter how capable the model becomes, the surrounding system must still be designed to handle failure safely.
-
-### Why isn’t model accuracy enough?
-
-**Short Answer**
-
-Because production failures rarely originate from the model itself.
-
-**Dive Deep**
-
-Model benchmarks evaluate performance under controlled conditions.
-
-Real-world environments introduce additional complexity:
-
-- changing data distributions
-
-- noisy inputs
-
-- integration failures
-
-- unexpected user behavior
-
-Dependability requires addressing the entire system, not just the model.
 
 ### What does “dependable AI” actually mean?
 
@@ -308,7 +270,7 @@ These principles are well established in safety-critical engineering and can be 
 
 ### Doesn’t adding reliability slow innovation?
 
-**Short Answer**
+**Simple Answer**
 
 No, it enables innovation by making deployments sustainable.
 
@@ -400,7 +362,7 @@ These practices shift AI development from experimentation to engineering.
 
 Dependability becomes critical whenever failures have real-world consequences.
 
-**Deep Dive**
+**Dive Deep**
 
 High-impact domains include:
 
@@ -446,7 +408,7 @@ The most valuable AI systems are not necessarily the most advanced models - they
 
 ### What about human error?
 
-**Short Answer**
+**Simple Answer**
 
 Human error is inevitable; dependable systems are designed to limit its impact.
 
@@ -454,7 +416,7 @@ Human error is inevitable; dependable systems are designed to limit its impact.
 
 Human error is often framed as
 
-> *"The operator made a mistake"*
+> *“The operator made a mistake”*
 
 Research in safety engineering shows something different:
 
@@ -468,7 +430,7 @@ So the question becomes:
 
 > Why was the system designed so that a single human mistake could cause a systemic failure?
 
-This mindset comes form safety engineering and high-reliability systems.
+This mindset comes from safety engineering and high-reliability systems.
 
 **Example:** Pilots are humans, they make mistakes. But aviation safety improved dramatically because systems were designed to assume human error *will* happen.
 
@@ -494,11 +456,11 @@ How?
 
 ### How is this different from MLOps?
 
-**Short Answer**
+**Simple Answer**
 
 MLOps focuses on operationalizing ML pipelines, while dependable AI focuses on system reliability and safety.
 
-**Deep Dive**
+**Dive Deep**
 
 MLOps provides infrastructure for training and deploying models.
 
